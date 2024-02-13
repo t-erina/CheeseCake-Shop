@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/asset/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>MENTHA</title>
+</head>
+<body>
+  <header id="header" class="header is_paused">
+    <div class="c-header">
+      <h1 class="logo">
+        <a href="index.html">
+        <div class="logo-image"><img src="/asset/images/logo-image.png" alt="MENTHA"></div>
+        <span class="logo-text" >MENTHA</span>
+      </a></h1>
+
+      <div id="js_navBtn" class="nav-btn">
+        <span class="nav-btn_inner top"></span>
+        <span class="nav-btn_inner center"></span>
+        <span class="nav-btn_inner bottom "></span>
+      </div>
+      <nav id="nav" class="nav">
+        <ul class="nav-list">
+          <li><a class="js_navLink" href="/index.html#about">MENTHAとは</a></li>
+          <li><a class="js_navLink" href="/index.html#pickup">ピックアップ</a></li>
+          <li><a class="js_navLink" href="/index.html#mind">こだわり</a></li>
+          <li><a class="js_navLink" href="/index.html#news">お知らせ</a></li>
+          <li><a class="js_navLink" href="/index.html#shopinfo">店舗情報</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrapper w-mv">
+      <div class="c-mv">
+        <div class="text">
+          <h2 class="heading"><span class="sub">チーズケーキ専門店</span>MENTHA</h2>
+          <ul class="nav-list">
+            <li><a href="/index.html#about">MENTHAとは</a></li>
+            <li><a href="/index.html#pickup">ピックアップ</a></li>
+            <li><a href="/index.html#mind">こだわり</a></li>
+            <li><a href="/index.html#news">お知らせ</a></li>
+            <li><a href="/index.html#shopinfo">店舗情報</a></li>
+          </ul>
+        </div>
+        <picture class="image">
+          <source media="(max-width: 1109px)" srcset="/asset/images/mv_sp@x2.png">
+          <source media="(min-width: 1110px)" srcset="/asset/images/mv.png">
+          <img src="/asset/images/mv_sp@x2.png" alt="ブルーベリーチーズケーキのメインビジュアル">
+          <img src="/asset/images/mv.png" alt="ブルーベリーチーズケーキのメインビジュアル">
+        </picture>
+      </div>
+    </section>
+
+    <section id="about" class="wrapper w-about">
+      <div class="container c-about">
+        <h2 class="heading"><span class="bullet-image"></span>MENTHAとは</h2>
+        <div class="image">
+          <img src="/asset/images/about_illustration.png" alt="チーズケーキのイラスト">
+        </div>
+        <div class="description">
+          <p>MENTHA（メンタ）はチーズケーキの専門店です。</p>
+          <p>季節の素材を使ったおいしいチーズケーキを、<span class="break">みなさまにご提供いたします。</span></p>
+          <p>贈り物や自分へのご褒美にも。<span class="break">当店こだわりの味をご堪能ください！</span></p>
+        </div>
+      </div>
+    </section>
+
+
+    <div id="pickup" class="w-scroll-text">
+      <ul class="scroll-text large">
+        <li>Check us out!</li>
+        <li>PICK UP</li>
+      </ul>
+      <ul class="scroll-text large">
+        <li>Check us out!</li>
+        <li>PICK UP</li>
+      </ul>
+      <ul class="scroll-text large">
+        <li>Check us out!</li>
+        <li>PICK UP</li>
+      </ul>
+    </div>
+
+    <section id="pickup" class="wrapper w-pickup">
+      <div class="splide c-pickup">
+        <div class="splide__track pickup-track">
+          <ul class="splide__list pickup-list">
+            <li class="splide__slide pickup-list_inner">
+              <div class="slider-contents-layout">
+                <div class="image">
+                  <img src="/asset/images/cake_basque.png" alt="オリジナル・バスクチーズケーキ">
+                </div>
+                <div class="info">
+                  <h3 class="name">オリジナル・バスク</h3>
+                  <p class="description">当店人気No.1のバスクチーズケーキ。濃厚なチーズの風味を是非お楽しみください。</p>
+                  <p class="price">650円</p>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide pickup-list_inner">
+              <div class="slider-contents-layout">
+                <div class="image">
+                  <img src="/asset/images/cake_matcha.png" alt="抹茶チーズスフレ">
+                </div>
+                <div class="info">
+                  <h3 class="name">抹茶クリームチーズ</h3>
+                  <p class="description">とろけるようななめらか食感に仕上げました。上品な甘さと抹茶の香りが風味をひき立てます。</p>
+                  <p class="price">720円</p>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide pickup-list_inner">
+              <div class="slider-contents-layout">
+                <div class="image">
+                  <img src="/asset/images/cake_pumpkin.png" alt="パンプキンチーズケーキ">
+                </div>
+                <div class="info">
+                  <h3 class="name">召しませパンプキン</h3>
+                  <p class="description">こだわり素材の風味を生かした、くちどけのよいケーキです。コーヒーや紅茶にもよく合います。</p>
+                  <p class="price">620円</p>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide pickup-list_inner">
+              <div class="slider-contents-layout">
+                <div class="image">
+                  <img src="/asset/images/cake_berry.png" alt="ベリージャムチーズケーキ">
+                </div>
+                <div class="info">
+                  <h3 class="name">ベリー・ジャム</h3>
+                  <p class="description">甘酸っぱいストロベリージャムと、濃厚なクリームチーズのコントラストがくせになります。</p>
+                  <p class="price">550円</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="splide__arrows"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <div class="w-scroll-text">
+      <ul class="scroll-text small">
+        <li>Find your favorite!</li>
+        <li>Find your favorite!</li>
+      </ul>
+      <ul class="scroll-text small">
+        <li>Find your favorite!</li>
+        <li>Find your favorite!</li>
+      </ul>
+      <ul class="scroll-text small">
+        <li>Find your favorite!</li>
+        <li>Find your favorite!</li>
+      </ul>
+    </div>
+
+
+    <section id="mind" class="wrapper w-mind">
+      <div class="container c-mind">
+        <div class="mind-contents material">
+          <div class="text-wrapper">
+            <h3>おいしく食べてほしいから<span class="largle">厳選素材</span></h3>
+            <div class="description">
+              <p>厳選した材料を使用し、素材のおいしさを引き立てます。</p>
+              <p>味はもちろん、心もからだも嬉しいケーキ作りを目指しています。</p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="/asset/images/mind_material.png" alt="ケーキ作りのための様々な材料">
+          </div>
+        </div>
+        <div class="mind-contents flavor">
+          <div class="text-wrapper">
+            <h3>楽しく食べてほしいから<span class="largle">旬のフレーバー</span></h3>
+            <div class="description">
+              <p>おいしいものを、おいしいときに食べていただきたい。</p>
+              <p>そんな思いから、旬の素材を使った季節限定商品も取りそろえております。</p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="/asset/images/mind_flavor.png" alt="色とりどりのフレッシュフルーツ">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="news" class="wrapper w-news">
+      <div class="container c-news">
+        <h2 class="heading"><span class="bullet-image"></span>お知らせ</h2>
+        <div>
+          <ul class="news-list">
+            <li class="new-list_inner"><a href="/news_detail.html">
+                <time>2024.2.1</time>
+                <h3>ホームページをリニューアルしました</h3>
+              </a></li>
+            <li class="new-list_inner"><a href="/news_detail.html">
+                <time>2024.1.15</time>
+                <h3>【2/1-2/15】バレンタインフェア開催！</h3>
+              </a></li>
+            <li class="new-list_inner"><a href="/news_detail.html">
+                <time>2024.12.10</time>
+                <h3>年末年始の営業時間について</h3>
+              </a></li>
+            <li class="new-list_inner"><a href="/news_detail.html">
+                <time>2024.12.1</time>
+                <h3>駐車場のご利用について</h3>
+              </a></li>
+          </ul>
+          <div class="link">
+            <a href="/news.html">お知らせ一覧をみる</a>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-layout">
+      <section id="shopinfo" class="wrapper w-map">
+        <div class="container c-map">
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1624.775347214!2d139.62109438889243!3d35.46591632771987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c0df6cfd2f1%3A0xbbbca6f36b5235f5!2z5qiq5rWc6aeF!5e0!3m2!1sja!2sjp!4v1707495517341!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <ul class="shop-info">
+            <li>
+              <p>〒000-0000</p>
+              <p>神奈川県横浜市xx区0-00-0</p>
+            </li>
+            <li>
+              <p>000-000-0000</p>
+            </li>
+            <li>
+              <p>営業時間：10:00-17:00</p>
+              <p>定休日：毎週火曜日</p>
+            </li>
+            <li>
+              <p>駐車場：3台</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="wrapper w-footer">
+        <div class="container c-footer">
+          <div class="footer-action-contents">
+            <a class="footer-logo" href="index.html">MENTHA</a>
+            <ul class="sns-kit">
+              <li class="sns-kit_inner"><a href=""><img src="/asset/images/sns_x.svg" alt="X（旧ツイッター）"></a></li>
+              <li class="sns-kit_inner"><a href=""><img src="/asset/images/sns_i.svg" alt="インスタグラム"></a></li>
+              <li class="sns-kit_inner"><a href=""><img src="/asset/images/sns_fb.png" alt="フェイスブック"></a></li>
+            </ul>
+          </div>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-list_inner"><a href="index.html">トップ</a></li>
+            <li class="footer-nav-list_inner"><a href="index.html#about">MENTHAについて</a></li>
+            <li class="footer-nav-list_inner"><a href="index.html#pickup">ピックアップ</a></li>
+            <li class="footer-nav-list_inner"><a href="index.html#mind">こだわり</a></li>
+            <li class="footer-nav-list_inner"><a href="index.html#news">お知らせ</a></li>
+            <li class="footer-nav-list_inner"><a href="index.html#shopinfo">店舗情報</a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="copy-right"><small>©2024 T-eri</small></div>
+    </section>
+  </footer>
+  <!-- Splide -->
+  <script src="
+  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+  "></script>
+  <link href="
+  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+  " rel="stylesheet">
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- js -->
+  <script src="/asset/js/header_display.js"></script>
+  <script src="/asset/js/script.js"></script>
+  <script src="/asset/js/slide_animation.js"></script>
+</body>
+</html>
